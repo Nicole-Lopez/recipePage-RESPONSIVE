@@ -1,0 +1,77 @@
+@media screen and (max-width: 1230px){
+	body{
+		margin: 25px 10px;
+		overflow-x: hidden;
+	}
+		header h1 {
+			font-size: 25px;
+			padding: 0;
+		}
+		
+			.caption-icon{
+				max-width: 15px;
+			}
+
+		.photo {
+			margin:20px 0;
+		}
+
+	main{
+		flex-direction: column-reverse;
+	}
+
+	aside{
+		position: static;
+		box-shadow: none;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+		padding: 0;
+		max-height: 100px;
+	}
+
+		aside div:first-child{
+			min-width: 500px;
+		}
+
+		.aside-items{
+			max-height: 50px;
+			padding: 0 15px;
+		}
+
+			.detail{
+				padding-left: 5px; 
+			}
+				.detail p:first-child{
+					font-size: 10px;
+				}
+
+.detail .det, .orange, .caption-text,.aside-items i, .item {
+	font-size: 12px;
+}
+
+
+
+	article {
+		max-width: 340px;	
+	}
+
+
+		.step{
+			margin: 40px 0;
+		}
+
+		.copyright{
+			max-width: 320px;			
+		}
+
+
+
+.preparation h3{
+	padding: 0;
+}
+
+
+
+}
